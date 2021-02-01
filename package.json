@@ -1,0 +1,20 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "description": "> my promise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "promises-aplus-tests src/MyPromise2.js",
+    "test:local": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
